@@ -1,0 +1,10 @@
+# CodingCoffee  C/C++ GitPod Examples more courses : http://www.codingcoffee.org
+tasks:
+  - init: echo 'Raspberry Pi Embedded System Tutorial ' # runs during prebuild
+    command: sudo apt update && sudo apt-get -y install nvidia-cuda-toolkit
+   
+
+# CodingCoffee  C/C++ GitPod Examples more courses : http://www.codingcoffee.org
+ports:
+  - port: 3000
+    onOpen: open-preview
