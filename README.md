@@ -1,6 +1,8 @@
 # CUDA Samples
 ref : https://github.com/NVIDIA/cuda-samples
 
+## install cuda toolkit in gitpod 
+sudo apt install nvidia-cuda-toolkit
 
 Samples for CUDA Developers which demonstrates features in CUDA Toolkit. This version supports [CUDA Toolkit 11.6](https://developer.nvidia.com/cuda-downloads).
 
